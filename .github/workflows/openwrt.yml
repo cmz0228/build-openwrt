@@ -9,17 +9,17 @@
 
 name: OpenWrt18.06-CI
 on:
-   push:
-    branches: 
-      - master
+ push:
+    #branches: 
+      #- master
   # schedule:
   #   - cron: 0 20 * * *
   # release:
   #   types: [published]
   
   # 点赞触发
-   watch:
-    types: [started]
+   #watch:
+    #types: [started]
 
 jobs:
 
